@@ -12,8 +12,6 @@ public class Heroe extends Person{
         gold = 10;
         bag = new Bag();
         dead = false;
-        bag.putInBag(new Item("15"));
-        bag.putInBag(new Item("8"));
         recalculateStats(0);
     }
 
